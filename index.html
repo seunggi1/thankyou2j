@@ -11,66 +11,63 @@
 			name="description"
 			content="가족, 친구, 애인과 함께 잊지못할 특별한 경험을 드리기위한 땡큐이지입니다❤️"
 		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+
 		<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="/styles/base.css" />
 	</head>
 	<body>
 		<header class="main-header">
-			<h1 class="main-header__title">Thankyou2j</h1>
+			<nav>
+				<ul class="main-header__menu">
+					<li><a href="">Home</a></li>
+					<li><a href="">Product</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</nav>
+			<div>
+				<h1 class="main-header__title">
+					<a href="#">땡큐이지</a>
+				</h1>
+			</div>
+			<div>
+				<ul class="main-header__shop">
+					<li>
+						<a href="">N</a>
+					</li>
+					<li><a href="">11번가</a></li>
+					<li><a href="">옥션</a></li>
+				</ul>
+			</div>
 		</header>
 		<main>
-			<section class="overview">
-				<div class="overview__wrap">
-					<h2 class="overview__title">땡큐이지</h2>
-					<!-- <p class="overview__subtitle">
-						엄마의 마음으로 정성껏 만든 답례품 전문점
-					</p> -->
-					<div class="overview__action">
-						<a
-							class="overview__link btn"
-							href="https://smartstore.naver.com/g2ss"
-							target="_blank"
-						>
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="32"
-								height="30"
-								fill="none"
-								viewBox="-4 -4 32 30"
-								id="ico_logo"
-								x="32"
-							>
-								<path
-									fill-rule="evenodd"
-									clip-rule="evenodd"
-									d="M15.817 22L8.074 10.612V22H0V0h8.187l7.743 11.386V0H24v22h-8.183z"
-									fill="url(#afpaint0_linear_3876_26143)"
-								/>
-								<defs>
-									<linearGradient
-										id="afpaint0_linear_3876_26143"
-										x1="-12"
-										y1="11"
-										x2="9.917"
-										y2="34.909"
-										gradientUnits="userSpaceOnUse"
-									>
-										<stop stop-color="#fff" />
-										<stop offset="0" stop-color="#fff" />
-										<stop offset="1" stop-color="#fff" />
-									</linearGradient>
-								</defs>
-							</svg>
-							<span>스마트스토어</span>
-						</a>
+			<section id="overview">
+				<div class="overview max-container">
+					<div class="overview__text-container">
+						<!-- <h2 class="overview__title">땡큐이지</h2> -->
+						<h2 class="overview__title">
+							평범한 일상을 특별한 선물로🎁 <br />
+						</h2>
+						<p class="overview__subtitle">
+							엄마의 마음으로 정성껏 만든 답례품 전문점
+						</p>
 					</div>
+					<div class="overview__image-container"></div>
 				</div>
 			</section>
-			<section class="intro">
-				<div>
-					<h2 class="intro__title">믿을만한 품질, 친절하고 빠른 응대</h2>
-					<p class="intro__description">평범한 일상을 특별한 선물로🎁</p>
-				</div>
+			<!-- <section class="intro">
+				<div></div>
 				<div>
 					<img class="intro__image" src="images/party-ballon.jpg" />
 				</div>
@@ -153,7 +150,7 @@
 						</article>
 					</li>
 				</ul>
-			</section>
+			</section> -->
 		</main>
 		<footer></footer>
 	</body>

@@ -24,134 +24,85 @@
 			rel="stylesheet"
 		/>
 
+		<link
+			href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap"
+			rel="stylesheet"
+		/>
+
 		<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="/styles/base.css" />
+
+		<!-- script -->
+		<script src="scripts/main.js" defer></script>
 	</head>
 	<body>
 		<header class="main-header">
+			<h1 class="main-header__title">
+				<a href="#">Thankyou2J</a>
+			</h1>
 			<nav>
 				<ul class="main-header__menu">
-					<li><a href="">Home</a></li>
-					<li><a href="">Product</a></li>
-					<li><a href="">Contact</a></li>
+					<li><a class="main-header__menu__link" href="#">Home</a></li>
+					<li>
+						<a class="main-header__menu__link" href="#product">Product</a>
+					</li>
+					<li>
+						<a class="main-header__menu__link" href="#contact">Contact</a>
+					</li>
 				</ul>
 			</nav>
-			<div>
-				<h1 class="main-header__title">
-					<a href="#">땡큐이지</a>
-				</h1>
-			</div>
-			<div>
-				<ul class="main-header__shop">
-					<li>
-						<a href="">N</a>
-					</li>
-					<li><a href="">11번가</a></li>
-					<li><a href="">옥션</a></li>
-				</ul>
-			</div>
 		</header>
 		<main>
-			<section id="overview">
-				<div class="overview max-container">
-					<div class="overview__text-container">
-						<!-- <h2 class="overview__title">땡큐이지</h2> -->
-						<h2 class="overview__title">
-							평범한 일상을 특별한 선물로🎁 <br />
-						</h2>
-						<p class="overview__subtitle">
+			<!-- Home -->
+			<section id="home">
+				<div class="home max-container">
+					<div class="home__text-container">
+						<h2 class="home__title home__title--strong">땡큐이지</h2>
+						<p class="home__subtitle">평범한 일상을 특별한 선물로 💕</p>
+						<p class="home__subtitle">
 							엄마의 마음으로 정성껏 만든 답례품 전문점
 						</p>
+						<ul class="home__shop">
+							<li>
+								<a href="https://smartstore.naver.com/g2ss" target="_blank">
+									<img class="home__shop__img" src="images/naver.jpeg" />
+								</a>
+							</li>
+							<li>
+								<a href="https://shop.11st.co.kr/stores/549159" target="_blank">
+									<img class="home__shop__img" src="images/11st.jpeg" />
+								</a>
+							</li>
+							<li>
+								<a href="https://stores.auction.co.kr/g2ss" target="_blank"
+									><img class="home__shop__img" src="images/aution.png"
+								/></a>
+							</li>
+							<li>
+								<a
+									href="https://mobile.gmarket.co.kr/SellerShop/g2ss"
+									target="_blank"
+									><img class="home__shop__img" src="images/gmarket.png"
+								/></a>
+							</li>
+						</ul>
 					</div>
-					<div class="overview__image-container"></div>
+					<div class="home__image-container"></div>
 				</div>
 			</section>
-			<!-- <section class="intro">
-				<div></div>
+			<!-- Product -->
+			<section id="product">
+				<h2 class="title">Product</h2>
 				<div>
-					<img class="intro__image" src="images/party-ballon.jpg" />
+					<ul class="products">
+						<li>
+							<img src="" alt="" />
+							<div></div>
+						</li>
+					</ul>
 				</div>
 			</section>
-			<section class="products">
-				<ul>
-					<li>
-						<article>
-							<div>
-								<img src="" alt="" />
-							</div>
-							<div>
-								<h2>레터링 꽃 풍선</h2>
-								<p>
-									특별한 행사에 딱 맞는 레터링 꽃 풍선으로 마음을 전해보는 건
-									어떨까요?
-								</p>
-								<div>
-									<button>상품보러가기</button>
-								</div>
-							</div>
-						</article>
-					</li>
-					<li>
-						<article>
-							<div>
-								<img src="" alt="" />
-							</div>
-							<div>
-								<h2>과자 간식 선물 세트</h2>
-								<p>
-									아이들과 직접 먹어보고 맛있는 것으로 선별하여 구성했습니다.
-								</p>
-								<p>
-									똑같은 상자가 아닌 구성에 따라 다양한 선물포장으로
-									준비했습니다.
-								</p>
-								<div>
-									<button>상품보러가기</button>
-								</div>
-							</div>
-						</article>
-					</li>
-					<li>
-						<article>
-							<div>
-								<img src="" alt="" />
-							</div>
-							<div>
-								<h2>레터링 버블 풍선</h2>
-								<p>
-									사랑이 담긴 미니 버블 풍선으로 특별한 날 소중한 기억을
-									남겨보아요
-								</p>
-								<div>
-									<button>상품보러가기</button>
-								</div>
-							</div>
-						</article>
-					</li>
-					<li>
-						<article>
-							<div>
-								<img src="" alt="" />
-							</div>
-							<div>
-								<h2>킨더조이 꽃 다발</h2>
-								<p>
-									투톤 비누꽃과 목화로 제작되어 반영구적으로 보관할 수 있고,
-									은은한 향기까지 있답니다.
-								</p>
-								<p>
-									킨더조이가 함께 구성되어 보는 즈럭움과 먹는 즐거움까지 누릴 수
-									있답니다.
-								</p>
-								<div>
-									<button>상품보러가기</button>
-								</div>
-							</div>
-						</article>
-					</li>
-				</ul>
-			</section> -->
 		</main>
-		<footer></footer>
+		<footer id="contact"></footer>
 	</body>
 </html>

@@ -44,6 +44,9 @@
 				<ul class="main-header__menu">
 					<li><a class="main-header__menu__link" href="#">Home</a></li>
 					<li>
+						<a class="main-header__menu__link" href="#about">About</a>
+					</li>
+					<li>
 						<a class="main-header__menu__link" href="#product">Products</a>
 					</li>
 					<li>
@@ -54,7 +57,7 @@
 		</header>
 		<main>
 			<!-- Home -->
-			<section id="home">
+			<section id="home" class="section">
 				<div class="home max-container">
 					<div class="home__text-container">
 						<h2 class="home__title home__title--strong">땡큐이지</h2>
@@ -90,24 +93,54 @@
 					<div class="home__image-container"></div>
 				</div>
 			</section>
+			<!-- About -->
+			<section id="about" class="section">
+				<h2 class="title">About</h2>
+				<div class="max-container">
+					<ul class="about-items">
+						<li class="about-item">
+							<h3 class="about-item__title">품질 ✨</h3>
+							<p class="about-item__description">
+								고급 재료만을 사용해서 주문제작을 하고있어요 생생한 색상과 오래
+								지속되는 내구성을 느끼실 수 있을거에요 ❤️
+							</p>
+						</li>
+						<li class="about-item">
+							<h3 class="about-item__title">정성 💝</h3>
+							<p class="about-item__description">
+								모든 분들이 만족할 수 있도록 원하는 옵션에 맞춰 정성을 담아
+								제작해드려요 🎁
+							</p>
+						</li>
+						<li class="about-item">
+							<h3 class="about-item__title">빠른 응대 ⚡️</h3>
+							<p class="about-item__description">
+								궁금한게 있으시면 어느 스토어에 편하게 문의주세요.
+							</p>
+						</li>
+					</ul>
+				</div>
+			</section>
 			<!-- Product -->
-			<section id="product">
-				<h2 class="title">Popular products</h2>
+			<section id="product" class="section">
+				<h2 class="title">products</h2>
 				<div class="max-container">
 					<ul class="products">
 						<li class="product">
-							<img
-								class="product__img"
-								src="images/lettering-balloon.jpg"
-								alt="lettering balloon"
-							/>
-							<div class="product__content">
-								<h3 class="product__title">레터링 꽃 풍선</h3>
-								<p class="product__description">
-									특별한 행사에 딱 맞는 레터링 꽃 풍선으로 마음을 전해보는 건
-									어떨까요?
-								</p>
-							</div>
+							<a href="">
+								<img
+									class="product__img"
+									src="images/lettering-balloon.jpg"
+									alt="lettering balloon"
+								/>
+								<div class="product__content">
+									<h3 class="product__title">레터링 꽃 풍선</h3>
+									<p class="product__description">
+										특별한 행사에 딱 맞는 레터링 꽃 풍선으로 마음을 전해보는 건
+										어떨까요?
+									</p>
+								</div>
+							</a>
 						</li>
 
 						<li class="product">
@@ -153,6 +186,27 @@
 				</div>
 			</section>
 		</main>
-		<footer id="contact"></footer>
+		<footer id="contact" class="section">
+			<h2 class="title">Contact</h2>
+			<div class="contact__details max-container">
+				<!-- <p class="contact__address">
+					<a class="contact__address__email" href="mailto:kem6689@naver.com"
+						>Email</a
+					>
+					<a class="contact__address__company"
+						>대구광역시 북구 연암공원로32길 56 (산격동)</a
+					>
+				</p> -->
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d699.7574268519443!2d128.60507620776445!3d35.89806150988497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e10c848b5b81%3A0x6c16f13ef055e506!2z65Wh7YGQ7J207KeA!5e0!3m2!1sko!2skr!4v1714054132060!5m2!1sko!2skr"
+					width="100%"
+					height="300"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
+			</div>
+		</footer>
 	</body>
 </html>

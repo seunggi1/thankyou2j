@@ -129,19 +129,19 @@ p {
 
 @keyframes background-change {
 	0% {
-		background: no-repeat center/cover url('images/main-background1.jpeg');
+		background: no-repeat center/cover url('../images/main-background1.jpeg');
 	}
 	25% {
-		background: no-repeat center/cover url('images/main-background2.jpg');
+		background: no-repeat center/cover url('../images/main-background2.jpg');
 	}
 	50% {
-		background: no-repeat center/cover url('images/main-background3.jpg');
+		background: no-repeat center/cover url('../images/main-background3.jpg');
 	}
 	75% {
-		background: no-repeat center/cover url('images/main-background4.jpg');
+		background: no-repeat center/cover url('../images/main-background4.jpg');
 	}
 	100% {
-		background: no-repeat center/cover url('images/main-background5.jpg');
+		background: no-repeat center/cover url('../images/main-background5.jpg');
 	}
 }
 
